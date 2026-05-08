@@ -1,0 +1,8 @@
+.gocache/
+dist/
+reports/
+data/
+certs/*-key.pem
+certs/scanner-ca.pem
+*.log
+*.tmp

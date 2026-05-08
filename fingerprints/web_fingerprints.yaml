@@ -1,0 +1,35 @@
+- name: Apache
+  header: Apache
+- name: Nginx
+  header: nginx
+- name: IIS
+  header: Microsoft-IIS
+- name: Tomcat
+  body: Apache Tomcat
+- name: WebLogic
+  body: WebLogic
+- name: Spring Boot
+  body: Whitelabel Error Page
+- name: Shiro
+  cookie: rememberMe
+- name: Struts2
+  body: struts
+- name: RabbitMQ Management
+  body: RabbitMQ Management
+- name: Jenkins
+  body: Jenkins
+- name: GitLab
+  body: GitLab
+- name: Grafana
+  body: Grafana
+- name: Kibana
+  body: Kibana
+- name: Tongda OA
+  body: Office Anywhere
+- name: Weaver OA
+  body: ecology
+- name: ZenTao
+  body: ZenTao
+- name: BaoTa Panel
+  body: app.bt.cn
+

@@ -1,0 +1,28 @@
+scan:
+  concurrency: 200
+  port_concurrency: 1000
+  web_concurrency: 50
+  timeout: 3s
+  retries: 1
+  rate_limit: 100
+  safe_mode: true
+
+modules:
+  portscan: true
+  service_detect: true
+  fingerprint: true
+  crawler: false
+  passive_scan: false
+  web_vuln_scan: false
+  poc_scan: false
+  brute_force: false
+
+bruteforce:
+  max_attempts_per_service: 20
+  stop_on_success: true
+  mask_password: true
+
+output:
+  format: html
+  file: reports/report.html
+
